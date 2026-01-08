@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Log.h"
+
 void Log(const char*);
 int Multiply(int, int);
+
 int main()
 {
 	int a, b;
