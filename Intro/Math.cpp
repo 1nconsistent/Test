@@ -1,4 +1,5 @@
-void Log(const char*);
+#include "Log.h"
+
 float Multiply(float a, float b)
 {
 	Log("Multiplied");
