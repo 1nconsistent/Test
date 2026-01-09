@@ -3,14 +3,18 @@
 
 void Log(const char*);
 void InitLog();
-int Multiply(int, int);
+float Multiply(float, float);
 
 int main()
 {
-	int a, b;
+	float a;
+	float b = 3.5;
 	InitLog();
-	std::cin >> a >> b;
-	int c = (Multiply(a, b));
+	std::cin >> a;
+	float c = (Multiply(a, b));
+	std::cout << c << std::endl;
+	a = 12.5;
+	c = Multiply(a, b);
 	std::cout << c << std::endl;
 	Log("Hello, testing 123");
 }

@@ -1,5 +1,5 @@
 void Log(const char*);
-int Multiply(int a, int b)
+float Multiply(float a, float b)
 {
 	Log("Multiplied");
 	return a * b;
