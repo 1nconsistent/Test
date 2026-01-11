@@ -26,4 +26,13 @@ int main()
 	int Div = Divide(d1, d2);
 	std::cout << "Div: " << Div << std::endl;
 	Log("Hello, testing 123");
+	
+	int ad = 532436;
+	int* p = &ad;
+	const char* aag = "Quadratini";
+	std::cout << *p << std::endl;
+	for (int i = 0; i < 10; i++)
+	{
+			std::cout << aag[i] << std::endl;
+	}
 }
