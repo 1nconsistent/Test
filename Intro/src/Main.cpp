@@ -2,9 +2,6 @@
 #include "Log.h"
 #include "MathCustom.h"
 
-void InitLog();
-float Multiply(float, float);
-
 int main()
 {
 	int condi;
