@@ -1,13 +1,13 @@
 #include <iostream>
 #include "Log.h"
 #include "MathCustom.h"
-
+//whatever, random commit
 int main()
 {
 	int condi;
 	float a, b;
 	do
-	{
+	{ 
 		std::cout << "Select an operation:\n1. Multiply\n2. Divide\n3. Add\n4. Subtract\n5. Modulus\n6. Exit\n";
 		std::cin >> condi;
 		if (condi >= 1 && condi <= 5)
